@@ -1,0 +1,57 @@
+p {
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-content: center;
+}
+
+.historia {
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: $color-primario;
+    margin: 100px;
+}
+
+.ubicacion {
+    font-family: 'Roboto', sans-serif;
+    color: $color-primario;
+    margin: 10px;
+}
+
+.novedades p {
+    color: white;
+}
+
+.novedades h3 {
+
+    color: white;
+}
+
+.text_cafe {
+    width: 50%;
+    font-size: x-large;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: $color-primario;
+    width: 100%;
+    margin: 3%;
+}
+.text_desayunos {
+    font-size: x-large;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: $color-primario;
+    width: 100%;
+    margin: 3%
+}
+.text_tortas {
+    width: 50%;
+    font-size: x-large;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #683C11;
+    width: 100%;
+    margin: 3%
+}

@@ -1,0 +1,76 @@
+@media screen and (max-width: 360px) {
+
+    #img_historia {
+        visibility: hidden;
+        width: 0%;
+    }
+
+    .contenedor_historia {
+        display: block;
+        margin: 0;
+    }
+
+    .historia {
+        margin-left: 20px;
+        width: 90%;
+        color: $color-primario;
+        font-size: x-large;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #img_cafe {
+        visibility: hidden;
+        display:none;
+    }
+
+    .text_cafe {
+        width: 100%;
+        font-size: large;
+    }
+
+    #img_desayuno {
+        visibility: hidden;
+        display:none;
+    }
+
+    .text_desayunos {
+        width: 100%;
+        font-size: large;
+    }
+
+    #img_torta {
+        visibility: hidden;
+        display:none;
+    }
+
+    .text_tortas {
+        width: 100%;
+        font-size: large;
+    }
+
+.mb-8 {
+
+    width: 90%; }
+
+    .novedades {
+        p {
+            font-size: medium;
+        }
+    }
+    .mapa{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        margin-bottom: 50px;
+    }
+    .mapa iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+}
+
+}

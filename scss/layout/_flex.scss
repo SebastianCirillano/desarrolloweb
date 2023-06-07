@@ -1,0 +1,74 @@
+#imagen_index {
+    width: 100%;
+    opacity: 80%;
+}
+
+.img_novedades {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#takeaway {
+    width: 30%;
+}
+
+#outside {
+    width: 30%;
+}
+
+#beans {
+    width: 30%;
+}
+
+.novedades {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: $color-primario;
+    font-size: x-large;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    height: 100px;
+    display: list-item;
+}
+
+h1 {
+    color: $color-primario;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu h2 {
+    margin: 10px 0 10px 0;
+}
+
+.contenedor_historia {
+    display: flex;
+    font-size: x-large;
+    margin-bottom: 100px;
+}
+
+#img_historia {
+    width: 70%;
+}
+
+.img_historia {
+    width: 50%;
+    margin: 10px;
+}
+
+
+.mapa {
+    margin: 10px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: $color-primario;
+}
+
