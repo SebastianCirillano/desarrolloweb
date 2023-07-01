@@ -199,10 +199,32 @@ footer {
   margin-top: 2%;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
+  .img_novedades {
+    display: block;
+  }
+  #takeaway {
+    display: block;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 70%;
+  }
+  #outside {
+    display: block;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 70%;
+  }
+  #beans {
+    display: block;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 70%;
+  }
   #img_historia {
-    visibility: hidden;
-    width: 0%;
+    display: block;
+    margin-left: 35px;
+    width: 150%;
   }
   .contenedor_historia {
     display: block;
@@ -216,29 +238,44 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  #img_cafe {
-    visibility: hidden;
-    display: none;
+  .cafes {
+    display: block;
   }
   .text_cafe {
     width: 100%;
     font-size: large;
+    display: block;
+  }
+  #img_cafe {
+    display: block;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .desayunos {
+    display: block;
   }
   #img_desayuno {
-    visibility: hidden;
-    display: none;
+    display: block;
+    margin-top: 30px;
+    margin-left: 50px;
   }
   .text_desayunos {
     width: 100%;
     font-size: large;
+    display: block;
+  }
+  .tortas {
+    display: block;
   }
   #img_torta {
-    visibility: hidden;
-    display: none;
+    display: block;
+    margin-top: 30px;
+    margin-left: 50px;
   }
   .text_tortas {
     width: 100%;
     font-size: large;
+    display: block;
   }
   .mb-8 {
     width: 90%;
